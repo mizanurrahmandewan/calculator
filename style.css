@@ -1,0 +1,26 @@
+.calculator {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.results {
+  text-align: right;
+  box-shadow: 0 0 1px #222;
+  height: 40px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+}
+
+.box {
+  background: green;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  margin: 0 -3px 1px 0;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
